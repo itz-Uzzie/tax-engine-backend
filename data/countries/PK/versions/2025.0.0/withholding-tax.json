@@ -1,0 +1,54 @@
+{
+  "taxType": "withholding_tax",
+  "country": "PK",
+  "version": "2025.0.0",
+  "currency": "PKR",
+  "rules": [
+    {
+      "id": "pk-wht-153-1-a-rice-atl",
+      "section": "153(1)(a)",
+      "category": "supplies",
+      "description": "Sale of rice, cotton seed or edible oils",
+      "conditions": {
+        "filerStatus": "atl"
+      },
+      "calculation": {
+        "type": "percentage",
+        "rate": 1.5,
+        "base": "gross_amount"
+      },
+      "reference": {
+        "law": "Income Tax Ordinance, 2001",
+        "schedule": "Division-III, Part-III of First Schedule"
+      },
+      "sourceRef": {
+        "sourceId": "pk-wht-rate-card-2025",
+        "page": 6,
+        "rowHint": "153(1)(a) Supplies - Rice"
+      }
+    },
+    {
+      "id": "pk-wht-153-1-a-rice-non-atl",
+      "section": "153(1)(a)",
+      "category": "supplies",
+      "description": "Sale of rice, cotton seed or edible oils",
+      "conditions": {
+        "filerStatus": "non_atl"
+      },
+      "calculation": {
+        "type": "percentage",
+        "rate": 3,
+        "base": "gross_amount"
+      },
+      "reference": {
+        "law": "Income Tax Ordinance, 2001",
+        "schedule": "Division-III, Part-III of First Schedule"
+      },
+      "sourceRef": {
+        "sourceId": "pk-wht-rate-card-2025",
+        "page": 6,
+        "rowHint": "153(1)(a) Supplies - Rice"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "PK-2025.0.0",
+  "country": "PK",
+  "version": "2025.0.0",
+  "status": "published",
+  "effectiveFrom": "2025-07-01",
+  "effectiveTo": "2026-06-30",
+  "publishedAt": "2025-07-01T00:00:00.000Z",
+  "financeAct": "Finance Act 2025",
+  "currency": "PKR",
+  "sourceHash": "sha256:...",
+  "notes": [
+    "Rates are based on official published FBR documents.",
+    "Rules must be validated before calculation."
+  ]
+}

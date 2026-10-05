@@ -1,0 +1,15 @@
+{
+  "country": "PK",
+  "currency": "PKR",
+  "version": "2026-06-01",
+  "updated_at": "2026-06-01T21:44:18.599Z",
+  "taxes": {
+    "withholding_tax": {
+      "contracts": 15
+    }
+  },
+  "source": {
+    "authority": "FBR",
+    "url": "https://fbr.gov.pk"
+  }
+}
